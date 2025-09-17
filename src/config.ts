@@ -49,7 +49,7 @@ export const siteConfig = {
       skills: ["TensorFlow", "Docker", "PyTorch", "Python"],
     },
     {
-      name: "NLP Restaurant Search",
+      name: "DishFish - NLP Restaurant Search",
       description:
         "Developed an intelligent restaurant search and recommender engine featuring simple filtering and demand analytics for businesses. Fine-tuned a BERT model to classify attributes like cuisine from plaintext searches, achieving 93% accuracy in understanding user intent.",
       link: "https://devpost.com/software/dishfish",
