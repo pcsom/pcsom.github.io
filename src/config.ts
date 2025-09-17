@@ -6,6 +6,7 @@ export const siteConfig = {
   social: {
     email: "psomu3@gatech.edu",
     linkedin: "https://linkedin.com/in/pranav-somu",
+    twitter: "https://x.com/PranavSomu",
     github: "https://github.com/pcsom",
   },
   aboutMe:
@@ -23,6 +24,7 @@ export const siteConfig = {
       name: "Agricultural Productivity Forecasting - Project Lead @ Big Data Big Impact",
       description:
         "Directed a team of 18 in creating a service to support data-driven agricultural policy by forecasting crop type and yield using satellite data. Led the optimization of LSTM and UNet models to achieve 91%+ prediction accuracy.",
+      link: "",
       skills: ["Python", "AWS", "Pandas"],
     },
     {
@@ -52,6 +54,7 @@ export const siteConfig = {
       company: "Georgia Tech Research Institute",
       title: "Student Assistant",
       dateRange: "Aug. 2025 – Present",
+      bullets: [ ],
     },
     {
       company: "Amazon Web Services",
