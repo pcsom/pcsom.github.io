@@ -77,7 +77,7 @@ export const siteConfig = {
       title: "Undergraduate Researcher",
       dateRange: "Oct. 2024 – Present",
       bullets: [
-        "Leading the development of a novel evolutionary algorithm for generating computer vision models. Built a deep-learning surrogate for predicting model performance, and integrated the predictor to decrease overall algorithm runtime by 27%.",
+        "Leading the development of a novel evolutionary algorithm for generating computer vision models. Built a deep-learning surrogate for predicting model performance, and integrated the predictor to decrease overall algorithm runtime by 27%. https://github.com/AaronMcDaniel/surrogate-evolution [link](https://github.com/AaronMcDaniel/surrogate-evolution)",
       ],
     },
     {
