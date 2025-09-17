@@ -1,91 +1,106 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Pranav Somu",
+  title: "Machine Learning Research Assistant",
+  description: "Portfolio",
+  accentColor: "#520808",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "psomu3@gatech.edu",
+    linkedin: "https://linkedin.com/in/pranav-somu",
+    github: "https://github.com/pcsom",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm pursuing my BS/MS degree in Computer Science at Georgia Tech, with a passion for AI/ML theory and systems. I'm interested in Neural Architecture Search and meta-algorithms that improve Machine Learning processes. I'm currently researching LLM- & surrogate-guided Evolutionary Algorithms to optimize computer vision models at the Georgia Tech Research Institute and Automated Algorithm Design team. I've also had the opportunity to build Gen-AI applications and optimize infrastructure at Amazon Web Services. I'm always eager to explore new approaches and applications in AI and Machine Learning algorithms. Let's connect!",
+  skills: ["Python", "C++", "Java", "SQL", "AWS"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "PhysioFix - GenAI Physiotherapy Trainer",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Developed a GenAI physiotherapy trainer as a Swift app, automating personalized treatment planning using a LangChain RAG pipeline with GPT-4o. A deployed text-to-motion model converts these plans into animated GIFs, offering accessible and clear visual guidance for exercises.",
+      link: "https://devpost.com/software/physioflix-interactive-genai-physiotherapy-movement-trainer",
+      skills: ["LangChain", "Python", "Flask", "Swift"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Agricultural Productivity Forecasting - Project Lead @ Big Data Big Impact",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Directed a team of 18 in creating a service to support data-driven agricultural policy by forecasting crop type and yield using satellite data. Led the optimization of LSTM and UNet models to achieve 91%+ prediction accuracy.",
+      skills: ["Python", "AWS", "Pandas"],
     },
     {
-      name: "ExtensionKit",
+      name: "North Alabama Foster Closet",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Led the development of a full-stack supply distribution system for a non-profit, enabling the efficient completion of over 800 yearly requests for 300 foster families. Improved system performance and data query speeds by 220x by refining the Python backend, Django REST APIs, and PostgreSQL database.",
+      link: "https://github.com/pcsom/foster-db-system",
+      skills: ["Python", "Django", "PostgreSQL", "JavaScript"],
+    },
+    {
+      name: "American Sign Language (ASL) Education Tool - Big Data Big Impact",
+      description:
+        "Engineered deep learning algorithms for accessible ASL education through a real-time, ASL-to-English translation system. The solution uses a 95% accurate SSD ResNet50 hand sign classifier and a transformer architecture that surpassed prior research accuracy by 2%.",
+      link: "https://github.com/pcsom/fingerspelling-zipformer-hybrid",
+      skills: ["Python", "PyTorch", "Pandas", "TensorFlow"],
+    },
+    {
+      name: "NLP Restaurant Search",
+      description:
+        "Developed an intelligent restaurant search and recommender engine featuring simple filtering and demand analytics for businesses. Fine-tuned a BERT model to classify attributes like cuisine from plaintext searches, achieving 93% accuracy in understanding user intent.",
+      link: "https://devpost.com/software/dishfish",
+      skills: ["Python", "Next.js", "Node.js", "MongoDB"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Georgia Tech Research Institute",
+      title: "Student Assistant",
+      dateRange: "Aug. 2025 – Present",
+    },
+    {
+      company: "Amazon Web Services",
+      title: "Software Development Engineer Intern",
+      dateRange: "May 2025 – July 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Built an agentic Gen-AI application for emergency ticket analysis that reduced weekly manual resolution effort by 8 hours. Used Amazon Bedrock to implement retrieval-augmented generation with an Anthropic Claude LLM and developed custom Java diagnostic tools to automate issue deduction and provide solutions.",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Georgia Tech Research Institute",
+      title: "Student Assistant",
+      dateRange: "Jan. 2025 – April 2025",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Improved an LLM-guided evolutionary algorithm to enhance YOLO object detection models through neural architecture search. Cut runtime for model refinement and training by 22% by running LLM inference through a central server with a ZeroMQ message queue.",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Georgia Tech Automated Algorithm Design Team",
+      title: "Undergraduate Researcher",
+      dateRange: "Oct. 2024 – Present",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Leading the development of a novel evolutionary algorithm for generating computer vision models. Built a deep-learning surrogate for predicting model performance, and integrated the predictor to decrease overall algorithm runtime by 27%.",
+      ],
+    },
+    {
+      company: "Amazon Web Services",
+      title: "Software Development Engineer Intern",
+      dateRange: "May 2024 – Aug. 2024",
+      bullets: [
+        "Optimized Java infrastructure for AWS Identity's information storage systems for a total runtime latency reduction of over 400 hours per month. Developed a search request handler using AWS Lambda and TypeScript to replace middleman services and built a customer-facing API, ultimately serving over 200M+ users.",
+      ],
+    },
+    {
+      company: "Leonardo DRS",
+      title: "Software Engineering Intern",
+      dateRange: "May 2024 – Aug. 2024",
+      bullets: [
+        "Refined image segmentation algorithms to improve edge detection resolution by 3x using Python OpenCV. Built program for compiling metrics to compare NVIDIA Deepstream models.",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Georgia Institute of Technology",
+      degree: "B.S. + M.S. in Computer Science",
+      dateRange: "Graduating Dec. 2026",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Faculty Honors (4.0/4.0 GPA)",
       ],
     },
   ],
