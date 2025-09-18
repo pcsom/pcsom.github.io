@@ -34,15 +34,15 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                   <div class="group relative">
                     <Component
                       {...linkProps}
-                      class={`block relative p-6 sm:p-8 md:p-10 bg-gradient-to-br from-red-50 to-rose-50 rounded-2xl sm:rounded-3xl border border-gray-200 transition-all duration-500 shadow-sm ${
+                      class={`block relative p-6 sm:p-8 md:p-10 bg-gradient-to-br from-red-950/20 to-amber-900/20 rounded-2xl sm:rounded-3xl border border-gray-200 transition-all duration-500 shadow-sm ${
                         project.link
-                          ? "hover:shadow-2xl hover:from-red-100 hover:to-rose-100 hover:border-red-300 hover:-translate-y-2"
+                          ? "hover:shadow-2xl hover:from-red-950/20 hover:to-amber-900/20 hover:border-amber-950 hover:-translate-y-2"
                           : ""
                       }`}
                       style={project.link ? "transform-style: preserve-3d;" : ""}
                     >
                       {project.link && (
-                        <div class="absolute top-6 right-6 sm:top-8 sm:right-8 md:top-10 md:right-10 w-12 h-12 sm:w-13 sm:h-13 md:w-14 md:h-14 flex items-center justify-center rounded-full text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-12"
+                        <div class="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-8 md:right-8 w-12 h-12 sm:w-13 sm:h-13 md:w-14 md:h-14 flex items-center justify-center rounded-full text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-12"
                           style={`background: linear-gradient(135deg, ${siteConfig.accentColor}, #dc2626)`}>
                           <svg
                             class="w-5 h-5 sm:w-5.5 sm:h-5.5 md:w-6 md:h-6 transition-transform duration-500 group-hover:translate-x-1 group-hover:-translate-y-1"
@@ -64,7 +64,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                         <div>
                           <span
                             class="text-sm font-mono font-semibold tracking-wider px-3 py-1 rounded-full text-white"
-                            style={`background: linear-gradient(135deg, ${siteConfig.accentColor}, #14b8a6)`}
+                            style={`background: linear-gradient(135deg, ${siteConfig.accentColor}, #dc2626)`}
                           >
                             0{index + 1}
                           </span>
