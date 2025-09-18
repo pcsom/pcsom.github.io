@@ -35,9 +35,9 @@ export const siteConfig = {
       skills: ["AWS", "Pandas", "Python"],
     },
     {
-      name: "North Alabama Foster Closet",
+      name: "Full-Stack Management System - North Alabama Foster Closet",
       description:
-        "Led the development of a full-stack supply distribution system for a non-profit, enabling the efficient completion of over 800 yearly requests for 300 foster families. Improved system performance and data query speeds by 220x by refining the Python backend, Django REST APIs, and PostgreSQL database.",
+        "Developed a supply distribution system for a non-profit, enabling the efficient completion of over 800 yearly requests for 300 foster families. Improved system performance and data query speeds by 220x by refining the Python backend, Django REST APIs, and PostgreSQL database.",
       link: "https://github.com/pcsom/foster-db-system",
       skills: ["Django", "PostgreSQL", "JavaScript", "Python"],
     },
@@ -54,13 +54,6 @@ export const siteConfig = {
         "Developed an intelligent restaurant search and recommender engine featuring simple filtering and demand analytics for businesses. Fine-tuned a BERT model to classify attributes like cuisine from plaintext searches, achieving 93% accuracy in understanding user intent.",
       link: "https://devpost.com/software/dishfish",
       skills: ["Next.js", "Node.js", "MongoDB", "Python"],
-    },
-    {
-      name: "Pacman AI",
-      description:
-        "Engineered a Pac-Man agent using the NEAT (NeuroEvolution of Augmenting Topologies) algorithm to autonomously navigate the maze, collect pellets, and evade ghosts. The agent's neural network evolves over generations, processing sensory inputs like ghost proximity and pellet locations.",
-      link: "https://github.com/pcsom/pacman-neat",
-      skills: ["PyGame", "Python"],
     },
   ],
   experience: [
