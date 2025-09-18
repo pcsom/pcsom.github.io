@@ -2,9 +2,9 @@
 
 :root {
   /* Color palette for consistent theming */
-  --color-primary: #0f766e;
-  --color-primary-light: #14b8a6;
-  --color-primary-dark: #134e4a;
+  --color-primary: #820505;
+  --color-primary-light: #ae5e5e;
+  --color-primary-dark: #570909;
   --color-secondary: #6b7280;
   --color-accent: #f59e0b;
   --color-surface: #f8fafc;
