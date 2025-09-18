@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Pranav Somu",
   title: "Machine Learning Research Assistant",
   description: "Portfolio",
-  accentColor: "#520808",
+  accentColor: "#0f766e", // Modern teal for a professional yet unique look
   social: {
     email: "psomu3@gatech.edu",
     linkedin: "https://linkedin.com/in/pranav-somu",
