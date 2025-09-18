@@ -55,6 +55,13 @@ export const siteConfig = {
       link: "https://devpost.com/software/dishfish",
       skills: ["Next.js", "Node.js", "MongoDB", "Python"],
     },
+    {
+      name: "Pacman AI",
+      description:
+        "Engineered a Pac-Man agent using the NEAT (NeuroEvolution of Augmenting Topologies) algorithm to autonomously navigate the maze, collect pellets, and evade ghosts. The agent's neural network evolves over generations, processing sensory inputs like ghost proximity and pellet locations.",
+      link: "https://github.com/pcsom/pacman-neat",
+      skills: ["PyGame", "Python"],
+    },
   ],
   experience: [
     {
@@ -103,6 +110,7 @@ export const siteConfig = {
       dateRange: "Graduating Dec. 2026",
       achievements: [
         "Faculty Honors (4.0/4.0 GPA)",
+        "Relevant Coursework: Machine Learning, Deep Learning, Probability & Statistics, Intro to Artificial Intelligence, Data Structures, Design & Analysis of Algorithms, Linear Algebra, Computer Architecture & Systems, Intro to Database Systems",
       ],
     },
   ],
