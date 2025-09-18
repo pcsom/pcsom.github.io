@@ -20,7 +20,28 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 
           <div class="lg:col-span-8">
             <div class="relative">
-              {siteConfig.experience.map((exp, index) => (
+              {siteConfig.experience.map((exp, index) => {
+                // Alternating background colors for experience cards
+                const bgColors = [
+                  "bg-gradient-to-br from-violet-50 to-purple-50",
+                  "bg-gradient-to-br from-rose-50 to-pink-50",
+                  "bg-gradient-to-br from-sky-50 to-blue-50",
+                  "bg-gradient-to-br from-green-50 to-emerald-50",
+                  "bg-gradient-to-br from-orange-50 to-amber-50"
+                ];
+                
+                const hoverColors = [
+                  "hover:from-violet-100 hover:to-purple-100 hover:border-violet-300",
+                  "hover:from-rose-100 hover:to-pink-100 hover:border-rose-300",
+                  "hover:from-sky-100 hover:to-blue-100 hover:border-sky-300",
+                  "hover:from-green-100 hover:to-emerald-100 hover:border-green-300",
+                  "hover:from-orange-100 hover:to-amber-100 hover:border-orange-300"
+                ];
+
+                const bgColor = bgColors[index % bgColors.length];
+                const hoverColor = hoverColors[index % hoverColors.length];
+
+                return (
                 <div class="relative mb-16 last:mb-0 group">
                   {/* Enhanced timeline dot */}
                   <div
@@ -37,7 +58,7 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
                   )}
 
                   {/* Enhanced experience card */}
-                  <div class="bg-gradient-to-br from-white to-slate-50/50 rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10 transition-all duration-500 hover:shadow-xl hover:border-teal-200 hover:-translate-y-1">
+                  <div class={`${bgColor} rounded-2xl shadow-sm border border-gray-200 p-6 sm:p-8 md:p-10 transition-all duration-500 hover:shadow-xl ${hoverColor} hover:-translate-y-1`}>
                     <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-6">
                       <div class="flex-1">
                         <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
@@ -72,7 +93,8 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
                     )}
                   </div>
                 </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         </div>

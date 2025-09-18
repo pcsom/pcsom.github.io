@@ -30,13 +30,35 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                     }
                   : {};
 
+                // Alternating background colors for visual variety
+                const bgColors = [
+                  "bg-gradient-to-br from-teal-50 to-cyan-50",
+                  "bg-gradient-to-br from-blue-50 to-indigo-50", 
+                  "bg-gradient-to-br from-purple-50 to-pink-50",
+                  "bg-gradient-to-br from-amber-50 to-orange-50",
+                  "bg-gradient-to-br from-emerald-50 to-teal-50",
+                  "bg-gradient-to-br from-slate-50 to-gray-50"
+                ];
+                
+                const hoverColors = [
+                  "hover:from-teal-100 hover:to-cyan-100 hover:border-teal-300",
+                  "hover:from-blue-100 hover:to-indigo-100 hover:border-blue-300",
+                  "hover:from-purple-100 hover:to-pink-100 hover:border-purple-300", 
+                  "hover:from-amber-100 hover:to-orange-100 hover:border-amber-300",
+                  "hover:from-emerald-100 hover:to-teal-100 hover:border-emerald-300",
+                  "hover:from-slate-100 hover:to-gray-100 hover:border-slate-300"
+                ];
+
+                const bgColor = bgColors[index % bgColors.length];
+                const hoverColor = hoverColors[index % hoverColors.length];
+
                 return (
                   <div class="group relative">
                     <Component
                       {...linkProps}
-                      class={`block relative p-6 sm:p-8 md:p-10 bg-gradient-to-br from-white to-slate-50 rounded-2xl sm:rounded-3xl border border-gray-100 transition-all duration-500 shadow-sm ${
+                      class={`block relative p-6 sm:p-8 md:p-10 ${bgColor} rounded-2xl sm:rounded-3xl border border-gray-200 transition-all duration-500 shadow-sm ${
                         project.link
-                          ? "hover:shadow-2xl hover:border-teal-200 hover:-translate-y-2 hover:from-white hover:to-teal-50/30"
+                          ? `hover:shadow-2xl ${hoverColor} hover:-translate-y-2`
                           : ""
                       }`}
                       style={project.link ? "transform-style: preserve-3d;" : ""}
