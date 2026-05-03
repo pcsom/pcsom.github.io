@@ -10,13 +10,13 @@ export const siteConfig = {
     github: "https://github.com/pcsom",
   },
   aboutMe:
-    "I'm pursuing my BS/MS degree in Computer Science at Georgia Tech, with a passion for AI/ML theory and systems. I'm interested in Neural Architecture Search and meta-algorithms that improve Machine Learning processes. I'm currently researching LLM- & surrogate-guided Evolutionary Algorithms to optimize computer vision models at the Georgia Tech Research Institute and Automated Algorithm Design team. I've also had the opportunity to build Gen-AI applications and optimize infrastructure at Amazon Web Services. I'm always eager to explore new approaches and applications in AI and Machine Learning algorithms. Let's connect! The best way to reach me is via LinkedIn or email.",
+    "I'm pursuing my Masters in Computer Science at Georgia Tech, with a passion for AI/ML theory and algorithms, such as meta-learning methods and neural architecture search. Currently, I’m researching surrogate-guided architecture optimization (paper published at GECCO 2026) at the Automated Algorithm Design team, while developing physics-informed models (PINNs) to approximate simulation engines at GTRI. I've also had the opportunity to build Gen-AI applications and optimize infrastructure at Amazon Web Services. I'm always eager to explore new approaches and applications in AI and Machine Learning algorithms. Let's connect!",
   skills: ["Python", "C++", "Java", "SQL", "AWS"],
   projects: [
     {
       name: "Surrogate-Aided Neural Architecture Search - Subteam Lead @ Georgia Tech Automated Algorithm Design Team",
       description:
-        "Leading the development of a novel evolutionary algorithm for generating computer vision models. Built a deep-learning surrogate for predicting model performance, and integrated the predictor to decrease overall algorithm runtime by 27%.",
+        "Led a team of 16 to engineer a novel surrogate for predicting model performance, using LLMs to understand the models’ code (published GECCO 2026), achieving performance competitive with prior research using 97% less training data.",
       link: "https://github.com/AaronMcDaniel/surrogate-evolution",
       skills: ["Python", "PyTorch", "Pandas", "NumpPy", "MatPlotLib"],
     },
@@ -59,9 +59,11 @@ export const siteConfig = {
   experience: [
     {
       company: "Georgia Tech Research Institute",
-      title: "Student Assistant",
+      title: "Graduate Research Assistant",
       dateRange: "Aug. 2025 – Present",
-      bullets: [ ],
+      bullets: [
+        "Developed ML models to approximate the dynamics of high fidelity physics simulations. Improved signal forecasting by 23% using physics-informed neural network (PINN) and raised signal processors' accuracy of classifying sensor data features by 14% using AutoML algorithm.",
+      ],
     },
     {
       company: "Amazon Web Services",
@@ -73,7 +75,7 @@ export const siteConfig = {
     },
     {
       company: "Georgia Tech Research Institute",
-      title: "Student Assistant",
+      title: "Student Research Assistant",
       dateRange: "Jan. 2025 – April 2025",
       bullets: [
         "Improved an LLM-guided evolutionary algorithm to enhance YOLO object detection models through neural architecture search. Cut runtime for model refinement and training by 22% by running LLM inference through a central server with a ZeroMQ message queue.",
