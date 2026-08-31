@@ -15,9 +15,9 @@ Education
 Georgia Institute of Technology
 ------
 **M.S. in Computer Science**  
-Graduating Dec. 2027 | 4.0 GPA
+Graduating Dec. 2027
 
 Georgia Institute of Technology
 ------
 **B.S. in Computer Science**  
-Graduated Dec. 2025 | Faculty Honors (4.0 GPA)
+Graduated Dec. 2025 | Faculty Honors
