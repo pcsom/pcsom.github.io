@@ -3,11 +3,11 @@ main:
   - title: "About"
     url: /
 
-  - title: "Industry Experience"
-    url: /experience/
-
   - title: "Research Experience"
     url: /research/
+
+  - title: "Industry Experience"
+    url: /experience/
 
   - title: "Projects"
     url: /projects/

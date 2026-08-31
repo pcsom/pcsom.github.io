@@ -5,6 +5,13 @@ permalink: /research/
 author_profile: true
 ---
 
+Georgia Tech Automated Algorithm Design Team
+======
+**Student Researcher — First-Author Publication at [doi.org/10.48550/arXiv.2605.15649](https://doi.org/10.48550/arXiv.2605.15649)**  
+Oct. 2024 – May 2026
+
+Led research on generalizable performance predictors for evaluating machine learning models during Neural Architecture Search, using LLMs to embed candidate model code into numerical encodings for a lightweight fitness regression model. Published first-author work at GECCO 2026 on building predictors that generalize across model families without costly retooling during evolutionary search.
+
 Georgia Tech Research Institute
 ======
 **Graduate Machine Learning Research Assistant**  
@@ -18,10 +25,3 @@ Georgia Tech Research Institute
 Jan. 2025 – April 2025
 
 Improved an LLM-guided evolutionary algorithm to enhance YOLO object detection models through neural architecture search. Cut runtime for model refinement and training by 22% by running LLM inference through a central server with a ZeroMQ message queue.
-
-Georgia Tech Automated Algorithm Design Team
-======
-**Student Researcher**  
-Oct. 2024 – May 2026
-
-Led research on generalizable performance predictors for evaluating machine learning models during Neural Architecture Search, using LLMs to embed candidate model code into numerical encodings for a lightweight fitness regression model. Published [first-author work at GECCO 2026](https://doi.org/10.48550/arXiv.2605.15649) on building predictors that generalize across model families without costly retooling during evolutionary search.

@@ -25,6 +25,10 @@
       }
     }
   }
+
+  > h1:not(.page__title) {
+    font-size: $type-size-4;
+  }
 }
 
 .archive__subtitle {
