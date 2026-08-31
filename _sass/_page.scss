@@ -37,7 +37,9 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
-  color: $dark-gray;
+  color: $darker-gray;
+  padding-bottom: 0.35em;
+  border-bottom: 4px solid $primary-color;
 
   & + .page__meta {
     margin-top: -0.5em;
