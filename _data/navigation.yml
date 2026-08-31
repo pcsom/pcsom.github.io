@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "About"
+    url: /
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Projects"
+    url: /projects/
+
+  - title: "Experience"
+    url: /experience/
+
+  - title: "Education"
+    url: /education/
