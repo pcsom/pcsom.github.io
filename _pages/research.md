@@ -10,7 +10,7 @@ Georgia Tech Automated Algorithm Design Team
 **Student Researcher — First-Author Publication at [doi.org/10.48550/arXiv.2605.15649](https://doi.org/10.48550/arXiv.2605.15649)**  
 Oct. 2024 – May 2026
 
-Led research on generalizable performance predictors for evaluating machine learning models during Neural Architecture Search, using LLMs to embed candidate model code into numerical encodings for a lightweight fitness regression model. Published first-author work at GECCO 2026 on building predictors that generalize across model families without costly retooling during evolutionary search.
+Led research on generalizable performance predictors for evaluating machine learning models during Neural Architecture Search, using LLMs to embed candidate model code into numerical encodings for a lightweight fitness regression model. Published [first-author work at GECCO 2026](https://doi.org/10.48550/arXiv.2605.15649) on building predictors that generalize across model families without costly retooling during evolutionary search.
 
 Georgia Tech Research Institute
 ======
