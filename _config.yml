@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Pranav Somu"
 title_separator          : "-"
 name                     : &name "Pranav Somu"
-description              : &description "Machine Learning Research Assistant at Georgia Tech"
+description              : &description "Research ML @ GTRI & PAIR Lab | Prev @ Databricks, AWS"
 url                      : https://pcsom.github.io
 baseurl                  : ""
 repository               : "pcsom/pcsom.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Pranav Somu"
   pronouns         : # example: "she/her"
-  bio              : "Machine Learning Research Assistant"
+  bio              : "Research ML @ GTRI & PAIR Lab | Prev @ Databricks, AWS"
   location         : "Atlanta, GA"
   employer         : "Georgia Institute of Technology"
   uri              : # URL
