@@ -5,6 +5,13 @@ permalink: /research/
 author_profile: true
 ---
 
+PAIR (People, AI & Robotics) Lab @ Georgia Tech
+======
+**Student Researcher**  
+Aug. 2026 - Present
+
+Improving robotic foundation model architectures and training recipes for imitation learning using pre-trained foundation models and mixing real-world and simulation data.
+
 Georgia Tech Automated Algorithm Design Team
 ======
 **Student Researcher — First-Author Publication at [doi.org/10.48550/arXiv.2605.15649](https://doi.org/10.48550/arXiv.2605.15649)**  
