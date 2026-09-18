@@ -32,7 +32,7 @@ author:
 
   # Academic websites
   arxiv            : # URL
-  googlescholar    : # URL
+  googlescholar    : "https://scholar.google.com/citations?user=mX80TZcAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : # URL
   pubmed           : # URL
